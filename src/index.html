@@ -5,39 +5,45 @@
     <title>Exercice hebdomadaire 4</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="chart">
-      <div class="switzerland">
-        <p>Suisse</p>
+      <div class="country switzerland">
+        <p class="country-name">Suisse</p>
         <div class="bar">
           <div class="mobile">
-            <p>65%</p>
+            <p class="number">65%</p>
           </div>
           <div class="desktop">
-            <p>35%</p>
+            <p class="number">35%</p>
           </div>
         </div>
       </div>
-      <div class="usa">
-        <p>États-Unis</p>
+      <div class="country usa">
+        <p class="country-name">États-Unis</p>
         <div class="bar">
           <div class="mobile">
-            <p>51%</p>
+            <p class="number">51%</p>
           </div>
           <div class="desktop">
-            <p>49%</p>
+            <p class="number">49%</p>
           </div>
         </div>
       </div>
-      <div class="europe">
-        <p>Europe</p>
+      <div class="country europe">
+        <p class="country-name">Europe</p>
         <div class="bar">
           <div class="mobile">
-            <p>41%</p>
+            <p class="number">41%</p>
           </div>
           <div class="desktop">
-            <p>59%</p>
+            <p class="number">59%</p>
           </div>
         </div>
       </div>
@@ -45,16 +51,14 @@
 
     <div class="legend">
       <div class="legend-mobile">
-        <div class="mobile-square"></div>
+        <div class="yellow-square"></div>
         <p>Mobile</p>
       </div>
+      <div class="legend-desktop">
+        <div class="blue-square"></div>
+        <p>Desktop</p>
+      </div>
     </div>
-
-    <div class="legend-desktop">
-      <div class="desktop-mobile"></div>
-      <p>Desktop</p>
-    </div>
-
     <script src="js/main.js" type="module"></script>
   </body>
 </html>

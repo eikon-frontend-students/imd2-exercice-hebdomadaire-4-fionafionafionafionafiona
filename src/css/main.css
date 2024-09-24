@@ -12,3 +12,115 @@ img,
 video {
   display: block;
 }
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding-top: 50px;
+}
+
+.country {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+p {
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+p.number {
+  font-size: 12px;
+}
+
+.country-name {
+  width: 100px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.mobile,
+.desktop {
+  display: flex;
+  color: white;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile,
+.yellow-square {
+  background: #ffcc2f;
+}
+
+.desktop {
+  border-radius: 0px 10px 10px 0px;
+  background: #37d3d2;
+}
+.blue-square {
+  background: #37d3d2;
+}
+.yellow-square,
+.blue-square {
+  width: 16px;
+  height: 16px;
+}
+
+.switzerland {
+  .mobile {
+    width: 195px;
+  }
+  .desktop {
+    width: 105px;
+  }
+}
+
+.usa {
+  .mobile {
+    width: 153px;
+  }
+  .desktop {
+    width: 147px;
+  }
+}
+
+.europe {
+  .mobile {
+    width: 123px;
+  }
+  .desktop {
+    width: 177px;
+  }
+}
+
+.legend {
+  display: flex;
+  width: 422px;
+  padding: 20px 0px 20px 120px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.legend p {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.legend-mobile,
+.legend-desktop {
+  display: flex;
+  gap: 10px;
+}
